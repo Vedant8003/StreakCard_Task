@@ -1,0 +1,21 @@
+.Percentage_change{
+    background: linear-gradient(to right,#262424, #6c6c6c52);
+    padding: 2px 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.LineChartBoxes{
+    stroke: white ;
+}
+.css-1k2u9zb-MuiChartsAxis-root{
+    stroke: white;
+} 
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line {
+    stroke: white !important;
+}
+@media (max-width:768px){
+    .css-13aj3tc-MuiChartsSurface-root{
+        width: 400px !important;
+        height: auto !important;
+    }
+}

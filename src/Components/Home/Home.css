@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 425px) and (min-width: 374px) {
+    .mainouterBox{
+        width: 123% !important;
+    }
+  }
+  @media only screen and (max-width: 375px) and (min-width: 319px) {
+    .mainouterBox{
+        width: 146% !important;
+    }
+  }

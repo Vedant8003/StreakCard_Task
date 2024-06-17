@@ -44,7 +44,7 @@ const Chart = () => {
       try {
         const promises = symbol.map(async (symbol) => {
           const response = await fetch(
-            `https://financialmodelingprep.com/api/v3/historical-price-full/${symbol}?apikey=Jd6yZ0LURoJDgR50OQ4bXtgx7iODzLx7&from=${fromDate}&to=${todate}`,
+            `https://financialmodelingprep.com/api/v3/historical-price-full/${symbol}?apikey=atT29yLFZgyEzQOgSg8aw1mia137iM1P&from=${fromDate}&to=${todate}`,
             {
               method: "GET",
               headers: {

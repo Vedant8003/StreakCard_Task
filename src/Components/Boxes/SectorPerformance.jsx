@@ -11,7 +11,7 @@ const SectorPerformance = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://financialmodelingprep.com/api/v3/sectors-performance?apikey=I8ksM4QThIgbMjf1x4WBqQytcjJGFtAx`,
+          `https://financialmodelingprep.com/api/v3/sectors-performance?apikey=atT29yLFZgyEzQOgSg8aw1mia137iM1P`,
           {
             method: "GET",
             headers: {
